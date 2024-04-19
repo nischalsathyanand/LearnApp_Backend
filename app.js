@@ -51,21 +51,26 @@ async function saveEveryDayObjects() {
     const everyDayObjects = new EveryDayObject({
         everyDayObjects: {
             'boy': {
-                imageFileNames: ['boy1.png', 'boy2.png', 'boy3.png', 'boy4.png', 'boy5.png'],
+                imageFileNames: ['boy1.png', 'boy2.png', 'boy3.png', 'boy4.png'],
                 audioFileName: 'boy.mp3'
             },
+            'bridge': {
+                imageFileNames: ['bridge1.png', 'bridge2.png', 'bridge3.png', 'bridge4.png'],
+                audioFileName: 'bridge.mp3'
+            },
+            'car': {
+                imageFileNames: ['car1.png', 'car2.png', 'car3.png'],
+                audioFileName: 'car.mp3'
+            },
             'girl': {
-                imageFileNames: ['girl1.png', 'girl2.png', 'girl3.png', 'girl4.png', 'girl5.png'],
+                imageFileNames: ['girl1.png', 'girl2.png', 'girl3.png','girl4.png'],
                 audioFileName: 'girl.mp3'
             },
-            'men': {
-                imageFileNames: ['men1.png', 'men2.png', 'men3.png', 'men4.png', 'men5.png'],
-                audioFileName: 'men.mp3'
+            'tree': {
+                imageFileNames: ['tree1.png', 'tree2.png', 'tree3.png'],
+                audioFileName: 'tree.mp3'
             },
-            'woman': {
-                imageFileNames: ['woman1.png', 'woman2.png', 'woman3.png', 'woman4.png', 'woman5.png'],
-                audioFileName: 'woman.mp3'
-            },
+           
 
         }
     })
@@ -79,6 +84,7 @@ async function saveEveryDayObjects() {
 }
 
 // Call the async function to save EveryDayObjects
+
 //saveEveryDayObjects();
 
 

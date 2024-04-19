@@ -4,7 +4,7 @@ const EveryDayObject = require('../models/EveryDayObject');
 router.get('/getObjectDetails', async (req, res) => {
     try {
         const { object } = req.query;
-        if (!object || !['boy', 'girl', 'men', 'woman'].includes(object)) {
+        if (!object || !['boy', 'bridge','car','girl','tree'].includes(object)) {
             return res.status(400).send('Invalid object parameter');
         }
 
